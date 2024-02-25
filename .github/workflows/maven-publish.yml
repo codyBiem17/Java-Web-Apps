@@ -6,7 +6,13 @@ name: Custom Maven Package
 on:
   push:
     branches:
-      - feature
+      - codybiem17-patch-1
+  pull_request:
+    types:
+      - opened
+    branches:
+      - codybiem17-patch-1
+    
   #release:
     #types: [created]
 
